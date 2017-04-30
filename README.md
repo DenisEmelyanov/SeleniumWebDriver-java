@@ -5,7 +5,7 @@ SeleniumWebDriver
 Page Factory concept example.
 
 Usage:
-
+```java
 public class SMMCTests extends Assert {
     @Test
     public void SMMCTest() {
@@ -15,3 +15,4 @@ public class SMMCTests extends Assert {
         configPage.security.setAllowCredentialsToBeSavedOnDevice(false);
     }
 }
+```
